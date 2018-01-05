@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker rm test-nginx
+docker rm test-nginx -f
 
-docker run -it --name test-nginx nginx
+docker run -d --name test-nginx nginx
