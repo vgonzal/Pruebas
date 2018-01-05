@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --name test-nginx nginx
+docker run -it --name test-nginx nginx
